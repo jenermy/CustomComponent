@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextWithClearAttr">
+        <attr name="isClearBtnInvisibility" format="boolean"/>
+        <attr name="myStyle">
+            <enum name="classic" value="1"/>
+            <enum name="simple" value="2"/>
+        </attr>
+        <attr name="iconIvBackground" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyPopupWindow">
+        <attr name="maxValue" format="integer"/>
+        <attr name="minValue" format="integer"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconIv"
+        android:background="@android:drawable/ic_lock_lock"
+        android:layout_centerVertical="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/customEt"
+        android:layout_toEndOf="@+id/iconIv"
+        android:layout_toStartOf="@+id/clearBtn"
+        android:background="@null"
+        android:layout_centerVertical="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearBtn"
+        android:background="@android:drawable/ic_delete"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a3a3a5"
+        android:id="@+id/bottomLine"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
